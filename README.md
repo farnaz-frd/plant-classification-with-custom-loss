@@ -9,9 +9,4 @@ The labels are not ordered by images and must be searched by the image’s addre
 
 The custom loss has been calculated based on the below table:
 
-y_true == y_predict      tag                       incorrect_predict_mask
-
-  T                       T                          T (additional_loss =0)
-  T                       F                          F (additional_loss =1)
-  F                       T                          F (additional_loss =1)
-  F                       F                          T (additional_loss =0)
+![truth_table](https://user-images.githubusercontent.com/53252795/235314769-8f3c9342-f054-4c69-aaf2-9ee14ba12186.png)
